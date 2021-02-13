@@ -91,3 +91,6 @@ h4{
 .section-right .wrapper{
   margin-left: 50px;
 }
+.section-right ul{
+  margin-left: -20px;
+}
