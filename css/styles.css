@@ -85,3 +85,9 @@ h4{
   font-style: italic;
   letter-spacing: 1px;
 }
+.section-right{
+  flex: 2;
+}
+.section-right .wrapper{
+  margin-left: 50px;
+}
