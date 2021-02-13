@@ -3,7 +3,25 @@ html{
   padding: 1em;
 }
 body{
-  background-color: coral;
+  background-color:white;
   margin: 1em auto;
   max-width: 50em;
+}
+p, ul{
+  font-family: 'Nanum', serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+:root{
+  --yellowish: #eeb14f;
+  --darkpurpule: #263547;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  
 }
