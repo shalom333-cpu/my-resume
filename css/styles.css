@@ -18,10 +18,26 @@ a{
 }
 :root{
   --yellowish: #eeb14f;
-  --darkpurpule: #263547;
+  --dark-purpule: #263547;
 }
 .container{
   display: flex;
   flex-direction: column;
-  
+}
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--dark-purpule) ;
+  height: 150px;
+}
+.title-holder{
+  align-items: center;
+}
+.name{
+  color: var(--yellowish);
+  font-family: 'Nanum', serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
 }
